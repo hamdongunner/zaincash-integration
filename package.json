@@ -1,0 +1,20 @@
+{
+  "name": "zaincash-inegration",
+  "version": "1.0.0",
+  "description": "file that will be used to integrate your website with zaincash payment method ",
+  "main": "zaincash.js",
+  "scripts": {
+    "test": "",
+    "start": "node zaincash.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdongunner/zaincash.git"
+  },
+  "author": "Hamdon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamdongunner/zaincash/issues"
+  },
+  "homepage": "https://github.com/hamdongunner/zaincash#readme"
+}
