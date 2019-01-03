@@ -94,6 +94,25 @@ app.post('/pay', (req, res) => {
 });
 
 
+//  Handeling the redierct
+app.get('redirect', (req, res) => {
+  const token = req.body.token;
+  if(token){
+    try {
+      var decoded = jwt.verify(token, process.env.SECRET);
+    } catch(err) {
+      // err
+    }
+    if(decoded.status == 'success'){
+      // Do whatever you like
+    }else {
+      //  Do other things
+    }
+  }
+});
+
+
+
 // Starting the server
 app.listen(PORT, () => {
   console.log(`Running on port ${PORT}`);
