@@ -4,7 +4,7 @@
   "description": "file that will be used to integrate your website with zaincash payment method ",
   "main": "zaincash.js",
   "scripts": {
-    "test": "",
+    "test": "nodemon zaincash.js",
     "start": "node zaincash.js"
   },
   "repository": {
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/hamdongunner/zaincash/issues"
   },
-  "homepage": "https://github.com/hamdongunner/zaincash#readme"
+  "homepage": "https://github.com/hamdongunner/zaincash#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "request": "^2.88.0"
+  }
 }
